@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(white, lightblue);
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+
+    float:left;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    background-color:white;
+}
+
+.clearfix h3 {
+    padding: 25px;
+}
+
+.welcome {
+    background-image: url(../milford.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    padding:250px;
+    text-align:center;
+}
+
+.welcome h1 {
+    background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+}
+
+footer {
+    margin-top: 5px;
+    padding: 5px;
+
+    background-color: lightblue;
+    text-align: left;
+}
