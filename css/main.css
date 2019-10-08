@@ -1,6 +1,12 @@
+html {
+    background-color:black;
+
+
+}
 body {
-    background-image: linear-gradient(white, lightblue);
+    background-image: linear-gradient(white, blanchedalmond);
     font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
 
 img {
@@ -24,24 +30,221 @@ img {
     padding: 25px;
 }
 
+.white{
+
+    background-color:white;
+}
 .welcome {
     background-image: url(../milford.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
-    padding:250px;
+    padding:200px;
     text-align:center;
 }
+
+.welcome2 {
+    background-image: url(../milford2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    padding:200px;
+    text-align:center;
+}
+
+
+.breakfast {
+    background-image: url(../bfood.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+
+.lunch {
+    background-image: url(../lfood.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+
+.dinner {
+    background-image: url(../dfood.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+
+.ext{
+    background-image: url(../exterior.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+
+.int{
+    background-image: url(../dining.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+.drink{
+    background-image: url(../drinkmen.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+
+.drinks h1 {
+      background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+.drinks {
+    background-image: url(../drink.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+
+
+}
+
+.drinks h1 {
+      background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+.bfast {
+    background-image: url(../mealb.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+
+
+}
+
+.bfast h1 {
+      background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+.lunchb {
+    background-image: url(../meal.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+
+
+}
+
+.lunchb h1 {
+      background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+
+
+.dinnertime {
+    background-image: url(../dinnertime.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+
+
+}
+
+.dinnertime h1 {
+      background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+.fam{
+    background-image: url(../fam.jpg);
+    background-attachment:inherit;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+
+}
+
 
 .welcome h1 {
     background-color: rgba(98,110, 128, 0.35);
     color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
 }
 
+.welcome2 h1 {
+    background-color: rgba(98,110, 128, 0.35);
+    color: rgb(235,239,245);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.utensils {
+    background-image: url(../utensils.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+
+}
 footer {
     margin-top: 5px;
     padding: 5px;
-
-    background-color: lightblue;
+    background-color: blanchedalmond;
     text-align: left;
+    font-size: 15px;
+}
+
+#more {
+    display: none;
+}
+
+#lunch {
+    display: none;
+}
+
+#dinner {
+    display: none;
+}
+
+h5 {
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    text-transform: uppercase;
+
 }

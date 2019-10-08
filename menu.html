@@ -4,6 +4,8 @@
   <head>
     <!-- Required meta tags -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,7 +13,58 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/product.css">
 	<link rel="stylesheet" href="css/main.css">
-  <title>Welcome to Rainbow Gardens!</title>
+  <title>Rainbow Gardens Menu</title>
+  <script>
+        function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+        function myFunctionL() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("lunch");
+  var btnText = document.getElementById("myBtnL");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+        function myFunctionD() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("dinner");
+  var btnText = document.getElementById("myBtnD");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+      </script>
   </head>
   <body>
 
@@ -33,12 +86,11 @@
         <li class="nav-item">
             <a class="nav-link" href="index.html">Home </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-        </li>
+
         <li class="nav-item active">
             <a class="nav-link" href="menu.html">Menu<span class="sr-only">(current)</span></a>
         </li>
+        </ul>
     </div>
     </div>
   </nav>
@@ -60,7 +112,7 @@
 <a name="breakfast"></a>
 
 
-    <div class="container-fluid welcome">
+    <div class="container-fluid bfast">
         <div class="row">
             <div class="col">
                 <h1> Breakfast </h1>
@@ -83,10 +135,10 @@
             </div>
 
         <div class ="col-sm">
-            <p> We are famous for our comforting and delicious breakfast favorites! Come in today to try or enjoy one of these fan favorites:
+             We are famous for our comforting and delicious breakfast favorites! Come in today to try or enjoy one of these fan favorites:
             <h5>Milford Green Toast :</h5> Fresh sliced avocado and seasoned fried egg on locally fresh baked italian bred
             <h5>Specialty Waffles :</h5> Baked-to-order waffles (available in whole grain!) topped with seasonal fruit, house whipped cream, and served pretty enough for a picture!
-            <h5>Fresh Orange Juice :</h5> Squeezed daily to ensure freshness! </p>
+            <h5>Fresh Orange Juice :</h5> Squeezed daily to ensure freshness!
         </div>
       </div>
     </div>
@@ -102,10 +154,26 @@
     <div class="container">
         <div class="row">
             <div class ="col-sm">
-                <p> We are famous for our comforting and delicious breakfast favorites! Come in today to try or enjoy one of these fan favorites:
+                We are famous for our comforting and delicious breakfast favorites! Come in today to try or enjoy one of these fan favorites:
+                <span id="dots">...</span><span id="more">
+
                 <h5>Milford Green Toast :</h5> Fresh sliced avocado and seasoned fried egg on locally fresh baked italian bred
                 <h5>Specialty Waffles : </h5> Baked-to-order waffles (available in whole grain!) topped with seasonal fruit, house whipped cream, and served pretty enough for a picture!
-                <h5>Fresh Orange Juice :</h5> Squeezed daily to ensure freshness! </p>
+                <h5>Fresh Orange Juice :</h5> Squeezed daily to ensure freshness!
+
+                <div class="container-fluid breakfast">
+        <div class="row">
+            <div class="col">
+                <h1> </h1>
+            </div>
+        </div>
+    </div>
+
+
+                </span>
+                <br>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                <br>
             </div>
         </div>
       </div>
@@ -114,7 +182,7 @@
 <a name="lunch"></a>
 
 
-    <div class="container-fluid welcome">
+    <div class="container-fluid lunchb">
         <div class="row">
             <div class="col">
                 <h1> Lunch </h1>
@@ -137,17 +205,54 @@
                 <img class="img-fluid" src="avocado.jpg">
             </div>
             <div class ="col-sm">
-                    <p> <h5>Avocado, Cranberry, and Orange Salad </h5>
-                    This salad is packed with nutrients, fresh fruit and veggies, and the lovely feeling of treating yourself right! You will feel happy, healthy, and full while enjoying this brand new meal! Come try it today!</p>
+                    <h5> Avocado, Cranberry, and Orange Salad </h5>
+                    This salad is packed with nutrients, fresh fruit and veggies, and the lovely feeling of treating yourself right! You will feel happy, healthy, and full while enjoying this brand new meal! Come try it today!
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Other Menu Items</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class ="col-sm">
+                We are famous for our comforting and delicious breakfast favorites! Come in today to try or enjoy one of these fan favorites:
+                <span id="dots">...</span><span id="lunch">
+
+                <h5>Milford Green Toast :</h5> Fresh sliced avocado and seasoned fried egg on locally fresh baked italian bred
+                <h5>Specialty Waffles : </h5> Baked-to-order waffles (available in whole grain!) topped with seasonal fruit, house whipped cream, and served pretty enough for a picture!
+                <h5>Fresh Orange Juice :</h5> Squeezed daily to ensure freshness!
+                          <div class="container-fluid lunch">
+        <div class="row">
+            <div class="col">
+                <h1> </h1>
             </div>
         </div>
     </div>
 
 
+                </span>
+
+
+                <br>
+                <button onclick="myFunctionL()" id="myBtnL">Read more</button>
+                <br>
+            </div>
+        </div>
+      </div>
+
+
+
 <a name="dinner"></a>
 
 
-    <div class="container-fluid welcome">
+    <div class="container-fluid dinnertime">
         <div class="row">
             <div class="col">
                 <h1> Dinner </h1>
@@ -170,18 +275,50 @@
             </div>
 
             <div class ="col-sm">
-                <p><h5>Cranberry Chicken</h5>
+                <h5>Cranberry Chicken</h5>
                 A seasonal favorite! With fresh, ethically sourced chicken and fruit. Enjoy the cold  weather with a warm and comforting meal of our Cranberry Chicken, paired with a glass of wine or flavored water.
-                </p>
+
             </div>
         </div>
     </div>
 
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Other Menu Items</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class ="col-sm">
+                We are famous for our comforting and delicious breakfast favorites! Come in today to try or enjoy one of these fan favorites:
+                <span id="dots">...</span><span id="dinner">
+
+                <h5>Milford Green Toast :</h5> Fresh sliced avocado and seasoned fried egg on locally fresh baked italian bred
+                <h5>Specialty Waffles : </h5> Baked-to-order waffles (available in whole grain!) topped with seasonal fruit, house whipped cream, and served pretty enough for a picture!
+                <h5>Fresh Orange Juice :</h5> Squeezed daily to ensure freshness!
+
+                <div class="container-fluid dinner">
+        <div class="row">
+            <div class="col">
+                <h1> </h1>
+            </div>
+        </div>
+    </div>
+                </span>
+                <br>
+                <button onclick="myFunctionD()" id="myBtnD">Read more</button>
+                <br>
+            </div>
+        </div>
+      </div>
 
 <a name="drinks"></a>
 
 
-    <div class="container-fluid welcome">
+    <div class="container-fluid drinks">
         <div class="row">
             <div class="col">
                 <h1> Drinks </h1>
@@ -204,19 +341,55 @@
                 <img class="img-fluid" src="drinks.jpg">
             </div>
             <div class ="col-sm">
-                <p> Happy Hour is every Monday-Thursday from 5pm - 8pm. Try some of these Autumn Specials, available for a limited time:
+                Happy Hour is every Monday-Thursday from 5pm - 8pm. Try some of these Autumn Specials, available for a limited time:
                 <h5>Pear Nectar and Thyme Mimosa: </h5> Prosecco, Pear Nectar, and Thyme with garnish
                 <h5>Apple Mojito:</h5> Fresh Apple Juice, club soda, simple syrup, white rum, and mint leaves
                 <h5>Caramel Apple Martini:</h5> apple schnapps, butterscotch schnapps, Bailey’s and milk
                 <h5>Apple Pear Gin: </h5>Spiced pear Liquer, gin, pear juice, lemon, and fresh apple cider
-                </p>
+
             </div>
         </div>
     </div>
-</main>
+<div class="container-fluid utensils">
+            <div class="row">
+                <div class="col">
 
-<footer>
-    <p>Milford, CT </p>
+                </div>
+            </div>
+        </div>
+
+<footer class="container py-2">
+  <div class="row">
+    <div class="col-6 col-md">
+      <h5>Hours</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted">Monday-Thursday: 9am - 7pm</a></li>
+        <li><a class="text-muted">Friday-Saturday: 8am - 10:30pm</a></li>
+        <li><a class="text-muted">Sunday: 8am-5pm</a></li>
+
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Address</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted">117 Broad St </a></li>
+        <li><a class="text-muted">Milford, CT 06460</a></li>
+
+      </ul>
+    </div>
+
+     <div class="col-6 col-md">
+      <h5>Links</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="index.html">Rainbow Gardens Home</a></li>
+        <li><a class="text-muted" href="menu.html">Our Menu</a></li>
+
+      </ul>
+    </div>
+
+
+
+  </div>
 </footer>
 
 
